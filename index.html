@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="shortcut icon" href="./favicon/icons8-shop-94.png">
+    <style>
+        .navbar{ 
+            display: inline-block;
+            position: fixed;
+            width: 100%;
+            height: 70px;
+            background-color: rgba(0, 0, 0, 0.884);
+            margin-top: -8px;
+            margin-right: -50px;
+            left: 0px;
+        }
+        #siz{
+            display: inline-block;
+            margin-left: 100px;
+            margin-top: 30px;
+            color: white;
+        }
+        .home{
+            display: inline-block;
+            color: white;
+            margin-left: 47%;
+            text-decoration: none;
+        }
+        .home:hover{
+            text-decoration-line: underline;
+            text-decoration-color: rgb(226, 40, 16);
+            text-decoration-thickness: 3px;
+            text-underline-offset: 22px;
+        }
+        .OurProducts{
+            color: white;
+            margin-left: 25px;
+            text-decoration: none;
+        }
+        .OurProducts:hover{
+            text-decoration-line: underline;
+            text-decoration-color: rgb(226, 40, 16);
+            text-decoration-thickness: 3px;
+            text-underline-offset: 22px;
+        }
+        .AboutUs{
+            color: white;
+            margin-left: 25px;
+            text-decoration: none;
+        }
+        .AboutUs:hover{
+            text-decoration-line: underline;
+            text-decoration-color: rgb(226, 40, 16);
+            text-decoration-thickness: 3px;
+            text-underline-offset: 22px;
+        }
+        .ContactUs{
+            color: white;
+            margin-left: 25px;
+            text-decoration: none;
+        }
+        .ContactUs:hover{
+            text-decoration-line: underline;
+            text-decoration-color: rgb(226, 40, 16);
+            text-decoration-thickness: 3px;
+            text-underline-offset: 22px;
+        }
+        .img1{
+            display: inline-block;
+            position: relative;
+            left: 0px;
+            margin-top: 60px;
+            margin-left: -8px;
+            z-index: -3;
+        }
+        .best{
+            position: absolute;
+            top: 250px;
+            left: 600px;
+        }
+        .gri{
+            margin-left: 50px;
+            display: grid;
+            grid-template-rows: 370px 370px;
+            grid-template-columns: 372px 372px 372px;
+            gap: 30px;
+        }
+        .gri1{
+            border: 1px solid black;
+            opacity: 0.8;
+            box-shadow: 20px;
+        }
+        .gri1:hover{
+            opacity: 1;
+        }
+        .looking{
+            margin-left: 50px;
+            display: grid;
+            grid-template-columns: 650px 300px;
+            grid-template-rows: 300px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <span id="siz" style="font-family: Arial, Helvetica, sans-serif;font-weight: bold;">
+                SIXTEEN <span style="color: rgb(226, 40, 16);font-weight:bold">CLOTHING</span>
+            </span>
+            <a href="#home" class="home">&nbsp&nbspHome&nbsp&nbsp</a>
+            <a href="#OurProducts" class="OurProducts">&nbsp&nbspOur Products&nbsp&nbsp</a>
+            <a href="#AboutUs" class="AboutUs">&nbsp&nbspAbout Us&nbsp&nbsp</a>
+            <a href="#ContactUs" class="ContactUs">&nbsp&nbspContact Us&nbsp&nbsp</a>
+        </div>
+    </nav>
+    <div class="img1" id="home">
+        <img src="./images/slide_01.jpg" alt="" style="width: 1348px;left:0px;height:600px">
+        <div class="best">
+            <span style="color: rgb(226, 40, 16);font-size:25px;font-weight:bold;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">BEST OFFER</span> <br> <br>
+            <span style="margin-left: -200px;font-size:40px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bold;
+            color:white;letter-spacing:5px">NEW ARRIVALS ON SALE</span>
+        </div>
+    </div> <br><br><br><br><br>
+    <div id="OurProducts">
+        <span style="font-size: 30px;margin-left:50px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        ">Latest Products</span>
+        <span style="color: rgb(226, 40, 16);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight:bold;margin-left:63%">VIEW ALL PRODUCTS <span>></span>
+        </span>
+        <hr style="width: 92%;">
+    </div><br><br>
+    <div class="gri">
+        <div class="gri1">
+            <img src="./images/product_01.jpg" alt="" style="margin-bottom: 20px;"><br>
+            <span style="color: rgb(12, 144, 233);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight:bold;margin-left:20px">Tittle goes here</span>
+            <span style="font-weight: bold;margin-left:150px">$25.75</span>
+            <p style="margin: 20px;font-family:'Times New Roman', Times, serif;line-height:20px;
+            ">Lorem ipsum dolor sit amet consectetur adipisicing <br>
+            elit. rem aperiam blanditiis commodi assumenda.</p>
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px" style="margin-left: 20px;">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <span style="color: #FA5252;font-weight:bold;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left:150px">Reviews(24)</span> <br>
+        </div>
+        <div class="gri1">
+            <img src="./images/product_02.jpg" alt="" style="margin-bottom: 20px;"><br>
+            <span style="color: rgb(12, 144, 233);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight:bold;margin-left:20px">Tittle goes here</span>
+            <span style="font-weight: bold;margin-left:150px">$30.25</span>
+            <p style="margin: 20px;font-family:'Times New Roman', Times, serif;line-height:20px;
+            ">Lorem ipsum dolor sit amet consectetur adipisicing <br>
+            elit. rem aperiam blanditiis commodi assumenda.</p>
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px" style="margin-left: 20px;">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <span style="color: #FA5252;font-weight:bold;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left:150px">Reviews(21)</span> <br>
+
+        </div>
+        <div class="gri1">
+            <img src="./images/product_03.jpg" alt="" style="margin-bottom: 20px;"><br>
+            <span style="color: rgb(12, 144, 233);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight:bold;margin-left:20px">Tittle goes here</span>
+            <span style="font-weight: bold;margin-left:150px">$20.45</span>
+            <p style="margin: 20px;font-family:'Times New Roman', Times, serif;line-height:20px;
+            ">Lorem ipsum dolor sit amet consectetur adipisicing <br>
+            elit. rem aperiam blanditiis commodi assumenda.</p>
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px" style="margin-left: 20px;">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <span style="color: #FA5252;font-weight:bold;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left:150px">Reviews(36)</span> <br>
+
+        </div>
+        <div class="gri1">
+            <img src="./images/product_04.jpg" alt="" style="margin-bottom: 20px;"><br>
+            <span style="color: rgb(12, 144, 233);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight:bold;margin-left:20px">Tittle goes here</span>
+            <span style="font-weight: bold;margin-left:150px">$15.25</span>
+            <p style="margin: 20px;font-family:'Times New Roman', Times, serif;line-height:20px;
+            ">Lorem ipsum dolor sit amet consectetur adipisicing <br>
+            elit. rem aperiam blanditiis commodi assumenda.</p>
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px" style="margin-left: 20px;">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <span style="color: #FA5252;font-weight:bold;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left:150px">Reviews(48)</span> <br>
+
+        </div>
+        <div class="gri1">
+            <img src="./images/product_05.jpg" alt="" style="margin-bottom: 20px;"><br>
+            <span style="color: rgb(12, 144, 233);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight:bold;margin-left:20px">Tittle goes here</span>
+            <span style="font-weight: bold;margin-left:150px">$12.50</span>
+            <p style="margin: 20px;font-family:'Times New Roman', Times, serif;line-height:20px;
+            ">Lorem ipsum dolor sit amet consectetur adipisicing <br>
+            elit. rem aperiam blanditiis commodi assumenda.</p>
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px" style="margin-left: 20px;">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <span style="color: #FA5252;font-weight:bold;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left:150px">Reviews(16)</span> <br>
+
+        </div>
+        <div class="gri1">
+            <img src="./images/product_06.jpg" alt="" style="margin-bottom: 20px;"><br>
+            <span style="color: rgb(12, 144, 233);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight:bold;margin-left:20px">Tittle goes here</span>
+            <span style="font-weight: bold;margin-left:150px">$22.50</span>
+            <p style="margin: 20px;font-family:'Times New Roman', Times, serif;line-height:20px;
+            ">Lorem ipsum dolor sit amet consectetur adipisicing <br>
+            elit. rem aperiam blanditiis commodi assumenda.</p>
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px" style="margin-left: 20px;">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <img src="./favicon/icons8-star-50.png" alt="" width="15px" height="15px">
+            <span style="color: #FA5252;font-weight:bold;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left:150px">Reviews(32)</span> <br>
+        </div>
+    </div> <br><br><br>
+    <div id="AboutUs">
+        <span style="font-size: 30px;margin-left:50px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        ">About Sixteen Clothing</span>
+        <hr style="width: 92%;">
+    </div><br><br>
+    <div class="looking">
+        <div>
+            <span style="color: rgb(19, 100, 221);font-weight:bold;font-size:25px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Looking for the best products?</span>
+            <p style="font-size: 20px;"><span style="color: rgb(19, 100, 221);line-height:20px;font-size:20px;">This Template</span> is free to use for your business websites.However,you have no <br>
+            permission to redistribute the downloadable ZIP file on any template <br>
+            collection website. <span style="color: rgb(19, 100, 221);">Contact us</span> for more info.</p>
+            <ul style="line-height: 20px;font-size:20px;">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetur an adipisicing elit</li>
+                <li>It aquecorporis nulla aspernatur</li>
+                <li>Corporis, omnis doloremque</li>
+                <li>Non cum id reprehenderit</li>
+            </ul>
+            <button style="background-color: #FA5252;padding:10px;color:white;border-radius:5px;
+            border:1px solid white;font-size:20px;">Read More</button>
+        </div>
+        <div>
+            <img src="./images/feature-image.jpg" alt="" width="530px" height="340px">
+        </div>
+    </div> <br><br> <br><br><br>
+    <hr style="width: 92%;"> <br><br><br>
+    <div style="background-color:rgb(240, 233, 233);width:1200px;height:100px;margin-left:60px">
+        <div style="display: inline-block;">
+            <span style="color:rgb(19, 100, 221);margin-top:30px;display:inline-block;margin-left:50px">Creative & Unique <span>Sixteen</span> Products</span>
+            <p style="margin-left: 50px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto excepturi unde eos illo officiis velit  </p>
+        </div>
+
+        <div style="display: inline-block;">
+            <button style="background-color: #FA5252;padding:7px;color:white;border-radius:5px;
+            border:1px solid white;font-size:20px;font-weight:lighter;margin-left:340px;display:inline-block;
+            margin-bottom:30px;">Purchase Now</button>
+        </div> <br><br><br>
+        <hr style="width: 100%;"> <br><br><br>
+    </div>
+    <div style="margin-top: 120px;" id="ContactUs">
+        <center>
+            <span>
+                COPYRIGHT © 2020 SIXTEEN CLOTHING CO.LTD - DESIGN <span style="color: #FA5252;">TEMPLATEMO</span>
+            </span>
+        </center>
+    </div>
+</body>
+</html>
