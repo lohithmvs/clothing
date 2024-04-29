@@ -1,0 +1,130 @@
+.navbar{ 
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.884);
+    margin-top: -8px;
+    margin-right: -50px;
+    left: 0px;
+}
+#siz{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: white;
+} 
+.home{
+    display: inline-block;
+    color: white;
+    margin-left: 47%;
+    text-decoration: none;
+}
+
+.home:hover{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(226, 40, 16);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 22px;
+}
+.OurProducts{
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.OurProducts:hover{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(226, 40, 16);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 22px;
+}
+.AboutUs{
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.AboutUs:hover{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(226, 40, 16);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 22px;
+}
+.ContactUs{
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.ContactUs:hover{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(226, 40, 16);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 22px;
+}
+@media only screen and (max-width: 400px) {
+    #siz {
+        margin-left: 0px;
+        font-size: 10px;
+    }
+    .home{
+        margin-left: 0px;
+        font-size: 10px;
+    }
+    .home:hover{
+        text-underline-offset: 26px;
+    }
+    .OurProducts{
+        margin-left: -12px;
+        font-size: 10px;
+    }
+    .OurProducts:hover{
+        text-underline-offset: 26px;
+    }
+    .AboutUs{
+        margin-left: 0px;
+        font-size: 10px;
+    }
+    .AboutUs:hover{
+        text-underline-offset: 26px;
+    }
+    .ContactUs{
+        margin-left: -12px;
+        font-size: 10px;
+    }
+    .ContactUs:hover{
+        text-underline-offset: 26px;
+    }
+}
+.img1{
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    margin-top: 60px;
+    margin-left: -8px;
+    z-index: -3;
+}
+.best{
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+.gri{
+    margin-left: 50px;
+    display: grid;
+    grid-template-rows: 370px 370px;
+    grid-template-columns: 372px 372px 372px;
+    gap: 30px;
+}
+.gri1{
+    border: 1px solid black;
+    opacity: 0.8;
+    box-shadow: 20px;
+}
+.gri1:hover{
+    opacity: 1;
+}
+.looking{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 650px 300px;
+    grid-template-rows: 300px;
+}
