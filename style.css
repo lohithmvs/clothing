@@ -27,11 +27,6 @@
     text-decoration-thickness: 3px;
     text-underline-offset: 22px;
 }
-.OurProducts{
-    color: white;
-    margin-left: 25px;
-    text-decoration: none;
-}
 .OurProducts:hover{
     text-decoration-line: underline;
     text-decoration-color: rgb(226, 40, 16);
@@ -60,9 +55,297 @@
     text-decoration-thickness: 3px;
     text-underline-offset: 22px;
 }
+.img1{
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    margin-top: 60px;
+    margin-left: -8px;
+    z-index: -3;
+}
+.navbar1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navbar2{
+    color: rgb(226, 40, 16);
+    font-weight:bold
+}
+.gridfav1{
+    margin-left: 20px;
+    width:15px;
+    height:15px;
+}
+.gridfav2{
+    width:15px;
+    height:15px;
+}
+.gridfav3{
+    width:15px;
+    height:15px;
+}
+.gridfav4{
+    width:15px;
+    height:15px;
+}
+.gridfav5{
+    width:15px;
+    height:15px;
+}
+.para1{
+    font-size: 20px;
+}
+.paracontact{
+    color: rgb(19, 100, 221);
+}
+.lastpara5{
+    margin-top: 120px;
+}
+.imgsize{
+    width: 1348px;
+    left:0px;
+    height:600px
+}
+.imgsize1{
+    color: rgb(226, 40, 16);
+    font-size:25px;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imgsize2{
+    margin-left: -200px;
+    font-size:40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color:white;
+    letter-spacing:5px;
+}
+.best{
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+.OurProducts{
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.products1{
+    font-size: 30px;
+    margin-left:50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.products2{
+    color: rgb(226, 40, 16);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    margin-left:63%;
+}
+.gri{
+    margin-left: 80px;
+    display: grid;
+    grid-template-rows: 370px 370px;
+    grid-template-columns: 372px 372px 372px;
+    gap: 30px;
+}
+.gri1{
+    border: 1px solid white;
+    opacity: 0.8;
+    box-shadow: 10px 10px 10px black;
+}
+.gri1:hover{
+    opacity: 1;
+}
+.gridimg{
+    color: rgb(12, 144, 233);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    margin-left:20px
+}
+.gridimg1{
+    font-weight: bold;
+    margin-left:150px
+}
+.gridpara{
+    margin: 20px;
+    font-family:'Times New Roman', Times, serif;
+    line-height:20px;
+}
+.gridimg2{
+    color: #FA5252;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:150px;
+}
+.aboutus1{
+    font-size: 30px;
+    margin-left:50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutus2{
+    color: rgb(19, 100, 221);
+    font-weight:bold;
+    font-size:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.looking{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 650px 300px;
+    grid-template-rows: 300px;
+}
+.template1{
+    color: rgb(19, 100, 221);
+    line-height:20px;
+    font-size:20px;
+}
+.orderedlist1{
+    line-height: 20px;
+    font-size:20px;
+}
+.buttonread{
+    background-color: #FA5252;
+    padding:10px;
+    color:white;
+    border-radius:5px;
+    border:1px solid white;
+    font-size:20px;
+}
+.lastpara1{
+    background-color:rgb(240, 233, 233);
+    width:1200px;
+    height:100px;
+    margin-left:60px;
+}
+.lastpara2{
+    color:rgb(19, 100, 221);
+    margin-top:30px;
+    display:inline-block;
+    margin-left:50px
+}
+.lastpara3{
+    margin-left: 50px;
+}
+.lastpara4{
+    background-color: #FA5252;
+    padding:7px;
+    color:white;
+    border-radius:5px;
+    border:1px solid white;
+    font-size:20px;
+    font-weight:lighter;
+    margin-left:340px;
+    display:inline-block;
+    margin-bottom:30px;
+}
 @media only screen and (max-width: 400px) {
+    .lastpara2{
+        margin-left: 10px;
+    }
+    .lastpara3{
+        margin-left: 10px;
+    }
+    .lastpara4{
+        display: block;
+        margin-left: 10px;
+    }
+    .lastpara1{
+        width: 300px;
+        height: 180px;
+        margin-left: 20px;
+    }
+    .sideimg{
+        margin-top: 20px;
+        width:310px;
+        height:300px; 
+    }
+    .buttonread{
+        padding: 5px;
+        font-size: 15px;
+    }
+    .orderedlist1{
+        font-size: 15px;
+    }
+    .template1{
+        font-size: 15px;
+    }
+    .br1{
+        display: none;
+    }
+    .br2{
+        display: none;
+    }
+    .para1{
+        font-size: 15px;
+        text-align: start;
+    }
+    .aboutus2{
+        font-size: 20px;
+    }
+    .looking{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .aboutus1{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .gridimg{
+        margin-left: 10px;
+    }
+    .gridpara{
+        margin-left: 10px;
+        font-size: 14px;
+        text-align: start;
+    }
+    .gridfav1{
+        mar
+    }
+    .gridimg2{
+        margin-left: 99px;
+    }
+    .gri{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+
+    }
+    .imas{
+        width: 335px;
+    }
+    .OurProducts{
+        margin-left: 10px;
+    }
+    .products1{
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .products2{
+        font-size: 10px;
+        margin-left: 90px;
+    }
+    .imgsize{
+        width: 400px;
+        height: 300px;
+    }
+    .best{
+        position: absolute;
+        top: 100px;
+        left:150px;
+    }
+    .imgsize1{
+        font-size: 10px;
+    }
+    .imgsize2{
+        font-size: 15px;
+        margin-left: -100px;
+
+    }
     #siz {
-        margin-left: 0px;
+        margin-left: 20px;
         font-size: 10px;
     }
     .home{
@@ -73,7 +356,7 @@
         text-underline-offset: 26px;
     }
     .OurProducts{
-        margin-left: -12px;
+        margin-left: 0px;
         font-size: 10px;
     }
     .OurProducts:hover{
@@ -87,44 +370,10 @@
         text-underline-offset: 26px;
     }
     .ContactUs{
-        margin-left: -12px;
+        margin-left: 0px;
         font-size: 10px;
     }
     .ContactUs:hover{
         text-underline-offset: 26px;
     }
-}
-.img1{
-    display: inline-block;
-    position: relative;
-    left: 0px;
-    margin-top: 60px;
-    margin-left: -8px;
-    z-index: -3;
-}
-.best{
-    position: absolute;
-    top: 250px;
-    left: 600px;
-}
-.gri{
-    margin-left: 50px;
-    display: grid;
-    grid-template-rows: 370px 370px;
-    grid-template-columns: 372px 372px 372px;
-    gap: 30px;
-}
-.gri1{
-    border: 1px solid black;
-    opacity: 0.8;
-    box-shadow: 20px;
-}
-.gri1:hover{
-    opacity: 1;
-}
-.looking{
-    margin-left: 50px;
-    display: grid;
-    grid-template-columns: 650px 300px;
-    grid-template-rows: 300px;
 }
